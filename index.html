@@ -4,25 +4,18 @@
     <title>Подарок котику</title>
     <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-    <link rel="stylesheet" href="main_page.css">
   </head>
+ 
   <body>
-    <div>
-      <h1>Something awesome</h1>  
-      <a-scene embedded arjs>
-        <a-marker preset="hiro">
-          <a-entity
-            rotation="-90 0 0"
-            scale="0.1 0.1 0.1"
-            gltf-model="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf">
-          </a-entity>
-        </a-marker>
-        <a-entity camera></a-entity>
-      </a-scene>
-    </div>    
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <a-entity
+           rotation="-90 0 0"
+           scale="0.1 0.1 0.1"
+           gltf-model="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf">
+        </a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
   </body>
-  <script src="https://unpkg.com/vue@next"></script>
-  <script src="main_page.js"></script>
-  <script src="ar-navigate.js"></script>
-  <script src="float_window.js"></script>
 </html>

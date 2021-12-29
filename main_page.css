@@ -14,6 +14,7 @@ h1 {
    color: aaaaaa;
    background: aaaaaa;
    text-align: center;
+   z-index: index 15;
 }
 .ar {
    width: 80%;

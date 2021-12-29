@@ -4,3 +4,11 @@ h1 {
   background-color: #4470c4;
   border: 5px solid #2d508f;
 }
+#float-block {
+   width: 80%;
+   min-width: 30px;
+   max-width: 200px;
+   height: 70%;
+   max-height: 500px;
+   color: aaaaaa;
+}

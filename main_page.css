@@ -5,6 +5,7 @@ h1 {
   border: 5px solid #2d508f;
 }
 .float-block {
+   position: absolute;
    width: 80%;
    min-width: 30px;
    max-width: 200px;
@@ -12,6 +13,7 @@ h1 {
    max-height: 500px;
    color: aaaaaa;
    background: aaaaaa;
+   text-align: center;
 }
 .ar {
    width: 80%;

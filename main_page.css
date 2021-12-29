@@ -11,8 +11,9 @@ h1 {
    height: 70%;
    max-height: 500px;
    color: aaaaaa;
+   background: aaaaaa;
 }
-#ar {
+.ar {
    width: 80%;
    min-width: 30px;
    max-width: 200px;

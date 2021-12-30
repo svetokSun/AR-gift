@@ -4,7 +4,7 @@ h1 {
   background-color: #4470c4;
   border: 5px solid #2d508f;
 }
-.float-block {
+div.float-block {
    position: absolute;
    width: 80%;
    min-width: 30px;
@@ -16,7 +16,7 @@ h1 {
    text-align: center;
    z-index: index 15;
 }
-.ar {
+div.ar {
    width: 80%;
    min-width: 30px;
    max-width: 200px;

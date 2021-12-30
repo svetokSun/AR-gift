@@ -6,5 +6,6 @@ button.addEventListener('click', function () {
 
 let background = document.querySelector('.button-finish');
 background.addEventListener('click', function () {
+    $('.ar').show()
     $('.second-block').fadeOut(20)
 })

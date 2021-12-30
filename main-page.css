@@ -11,24 +11,27 @@ h1 {
     top: 0;
     left: 0;
     overflow: auto;
+    background-position: center;
+    text-align: center;
 }
 
 .float-block {
-  position: absolute;
-  width: 80%;
-  min-width: 30px;
-  max-width: 200px;
-  height: 70%;
-  max-height: 500px;
-  color: red;
-  background: blue;
-  text-align: center;
-  z-index: index 15;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    text-align: center; 
+    z-index: index 15;
+    background-color: rgba(255, 255, 255);
+    margin:auto;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    cursor: default;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .ar {

@@ -1,7 +1,7 @@
 let button = document.querySelector('.button-next');
 button.addEventListener('click', function () {
     $('.second-block').show()
-    $('.second-block').fadeOut(20)
+     ('.second-block').fadeOut(20);
 });
 let background = document.querySelector('.button-finish');
 background.addEventListener('click', function () {

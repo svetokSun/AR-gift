@@ -10,23 +10,25 @@
   </head>
  
   <body>
-    <div class="float-block">
-      <span class="description"> Привет, Андрей!
-      <div class="button-next">
-        <h3>Дальше</h3>
-      </div>  
-    </div>
-    <div class="ar"> 
-      <a-scene embedded arjs class="ar">
-        <a-marker preset="hiro">
-          <a-entity
-             rotation="-90 0 0"
-             scale="0.1 0.1 0.1"
-             gltf-model="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf">
-          </a-entity>
-        </a-marker>
-        <a-entity camera></a-entity>
-      </a-scene>
+    <div>
+      <div class="float-block">
+        <span class="description"> Привет, Андрей!
+        <div class="button-next">
+          <h3>Дальше</h3>
+        </div>  
+      </div>
+      <div class="ar"> 
+        <a-scene embedded arjs class="ar">
+          <a-marker preset="hiro">
+            <a-entity
+               rotation="-90 0 0"
+               scale="0.1 0.1 0.1"
+               gltf-model="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf">
+            </a-entity>
+          </a-marker>
+          <a-entity camera></a-entity>
+        </a-scene>
+      </div>
     </div>
     <script src="floatBlock.js"></script>
   </body>

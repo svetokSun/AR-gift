@@ -12,11 +12,16 @@ h1 {
   max-width: 200px;
   height: 70%;
   max-height: 500px;
-  color: aaaaaa;
-  background: aaaaaa;
+  color: red;
+  background: blue;
   text-align: center;
   z-index: index 15;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
+
 div.ar {
    width: 80%;
    min-width: 30px;

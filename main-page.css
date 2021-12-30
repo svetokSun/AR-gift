@@ -4,6 +4,17 @@ h1 {
   background-color: #4470c4;
   border: 5px solid #2d508f;
 }
+.parent{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 0;
+}
 
 .float-block {
   position: absolute;

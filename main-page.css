@@ -6,16 +6,16 @@ h1 {
 }
 
 .float-block {
-   position: absolute;
-   width: 80%;
-   min-width: 30px;
-   max-width: 200px;
-   height: 70%;
-   max-height: 500px;
-   color: aaaaaa;
-   background: aaaaaa;
-   text-align: center;
-   z-index: index 15;
+  position: absolute;
+  width: 80%;
+  min-width: 30px;
+  max-width: 200px;
+  height: 70%;
+  max-height: 500px;
+  color: aaaaaa;
+  background: aaaaaa;
+  text-align: center;
+  z-index: index 15;
 }
 div.ar {
    width: 80%;

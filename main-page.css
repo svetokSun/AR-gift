@@ -16,7 +16,7 @@ h1 {
 }
 
 .float-block {
-    display: none;
+    display: inline-block;
     position: absolute;
     width: 500px;
     height: 150px;

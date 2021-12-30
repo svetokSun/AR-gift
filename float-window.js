@@ -1,10 +1,6 @@
 let button = document.querySelector('.button-next');
 button.addEventListener('click', function () {
     $('.second-block').show()
-});
-
-let button = document.querySelector('.button-next');
-button.addEventListener('click', function () {
     $('.float-block').fadeOut(20)
 });
 

@@ -23,7 +23,17 @@
           <h3>Поехали!</h3>
         </div>  
       </div>
-      <div id="markers"> 
+      <a-scene embedded arjs>
+        <a-marker preset="hiro">
+          <a-entity 
+          position="0 -3 0"
+          rotation="-60 0 0"
+          text="align: center; width: 10; color: #2AA29F; font: roboto; value: Hello, Tproger">
+          </a-entity>
+        </a-marker>
+        <a-entity camera></a-entity>
+      </a-scene>
+      <!--<div id="markers"> 
         <a-scene embedded arjs class="ar">
           <a-marker preset="hiro">
             <a-entity position="0 2 -5" rotation="0 45 45" scale="2 2 2"
@@ -33,7 +43,7 @@
           <a-box src="image-tracking/nft/trex/1.jpeg" ></a-box>
           <a-entity camera></a-entity>
         </a-scene>
-      </div>
+      </div> -->
     </div>
     <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

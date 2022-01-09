@@ -6,5 +6,5 @@ button.addEventListener('click', function () {
 
 let background = document.querySelector('.button-finish');
 background.addEventListener('click', function () {
-    $('.second-block').fadeOut(20)
+    $('.second-block').onclick="https://svetoksun.github.io/AR-page/"
 })

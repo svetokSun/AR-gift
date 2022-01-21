@@ -18,11 +18,11 @@ h1 {
 .float-block {
     display: inline-block;
     position: absolute;
-    width: 500px;
-    height: 150px;
+    width: 80%;
+    height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: rgba(255, 255, 255);
+    background-color: #d3f7a3;
     margin:auto;
     padding:10px;
     border-radius:5px;
@@ -36,11 +36,11 @@ h1 {
 .second-block{
     display: none;
     position: absolute;
-    width: 500px;
-    height: 150px;
+    width: 80%;
+    height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: rgba(255, 255, 255);
+    background-color: #d3f7a3;
     margin:auto;
     padding:10px;
     border-radius:5px;
@@ -56,9 +56,11 @@ h1 {
     display: inline-block;
     height: inherit;
     width: 10%;
-    min-width: 30px;
+    min-width: 70px;
     cursor: pointer;
     border: 1px solid rgb(177, 233, 250);
+    right: 0;
+    left: 0;
 }
   
 .ar {

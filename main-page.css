@@ -82,21 +82,10 @@ h1 {
     bottom: 20px;
 }
   
-.ar {
-    display: none;
-    position: absolute;
-    width: 500px;
-    height: 150px;
+.description{
+    width: inherit;
+    height: inherit;
     text-align: center; 
     z-index: index 15;
-    background-color: rgba(255, 255, 255);
-    margin:auto;
     padding:10px;
-    border-radius:5px;
-    box-shadow: 0px 0px 10px #000;
-    cursor: default;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }

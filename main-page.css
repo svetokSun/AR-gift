@@ -1,10 +1,9 @@
-h1 {
-  font-size: 36px;
-  line-height: normal;
-  background-color: #4470c4;
-  border: 5px solid #2d508f;
+body {
+    background-color: #a12e2d;
+    font-family: 'Montserrat', sans-serif;
 }
 .parent {
+    
     width: 100%;
     height: 100%;
     position: absolute;
@@ -22,10 +21,11 @@ h1 {
     height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: #d3f7a3;
+    background-color: #1c6c36;
     margin:auto;
     padding:10px;
     border-radius:5px;
+    border: 2px solid #48993f;
     box-shadow: 0px 0px 10px #000;
     cursor: default;
     top: 0;
@@ -40,10 +40,11 @@ h1 {
     height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: #d3f7a3;
+    background-color: #1c6c36;
     margin:auto;
     padding:10px;
     border-radius:5px;
+    border: 2px solid #48993f;
     box-shadow: 0px 0px 10px #000;
     cursor: default;
     top: 0;
@@ -58,10 +59,11 @@ h1 {
     height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: #d3f7a3;
+    background-color: #1c6c36;
     margin:auto;
     padding:10px;
     border-radius:5px;
+    border: 2px solid #48993f;
     box-shadow: 0px 0px 10px #000;
     cursor: default;
     top: 0;
@@ -76,16 +78,23 @@ h1 {
     min-width: 70px;
     min-height: 50px;
     cursor: pointer;
-    border: 1px solid rgb(177, 233, 250);
+    border: 2px solid #ffe6ba;
     right: 0;
     left: 0;
     bottom: 20px;
+    word-break: break-all;
+    font-weight: bold;
+    font-size: 2em;
 }
   
 .description{
+    word-break: break-all;
+    font-weight: bold;
+    font-size: 2em;
     width: inherit;
     height: inherit;
     text-align: center; 
     z-index: index 15;
     padding:10px;
+    color: #ffe6ba;
 }

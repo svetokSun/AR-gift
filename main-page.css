@@ -1,5 +1,5 @@
 body {
-    background-color: #a12e2d;
+    background-color: #ffe9a8;
     font-family: 'Montserrat', sans-serif;
 }
 .parent {
@@ -21,11 +21,11 @@ body {
     height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: #1c6c36;
+    background-color: #48993f;
     margin:auto;
     padding:10px;
     border-radius:5px;
-    border: 2px solid #48993f;
+    border: 2px solid #1c6c36;
     box-shadow: 0px 0px 10px #000;
     cursor: default;
     top: 0;
@@ -40,11 +40,11 @@ body {
     height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: #1c6c36;
+    background-color: #48993f;
     margin:auto;
     padding:10px;
     border-radius:5px;
-    border: 2px solid #48993f;
+    border: 2px solid #1c6c36;
     box-shadow: 0px 0px 10px #000;
     cursor: default;
     top: 0;
@@ -59,11 +59,11 @@ body {
     height: 70%;
     text-align: center; 
     z-index: index 15;
-    background-color: #1c6c36;
+    background-color: #48993f;
     margin:auto;
     padding:10px;
     border-radius:5px;
-    border: 2px solid #48993f;
+    border: 2px solid #1c6c36;
     box-shadow: 0px 0px 10px #000;
     cursor: default;
     top: 0;
@@ -75,22 +75,19 @@ body {
     display: inline-block;
     height: 10%;
     width: 10%;
-    min-width: 70px;
-    min-height: 50px;
+    min-width: 120px;
+    min-height: 80px;
     cursor: pointer;
     border: 2px solid #ffe6ba;
     right: 0;
     left: 0;
     bottom: 20px;
-    word-break: break-all;
     font-weight: bold;
     font-size: 2em;
 }
   
 .description{
-    word-break: break-all;
-    font-weight: bold;
-    font-size: 2em;
+    font-size: 1em;
     width: inherit;
     height: inherit;
     text-align: center; 

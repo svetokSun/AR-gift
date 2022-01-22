@@ -51,12 +51,30 @@ h1 {
     right: 0;
     left: 0;
 }
-
-.button-next, .button-finish{
+.third-block {
+    display: none;
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    text-align: center; 
+    z-index: index 15;
+    background-color: #d3f7a3;
+    margin:auto;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    cursor: default;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.button-next, .button-finish, .button-medium {
     display: inline-block;
-    height: inherit;
+    height: 10%;
     width: 10%;
     min-width: 70px;
+    min-height: 50px;
     cursor: pointer;
     border: 1px solid rgb(177, 233, 250);
     right: 0;
